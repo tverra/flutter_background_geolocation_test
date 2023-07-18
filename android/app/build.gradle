@@ -47,7 +47,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.flutter_background_geolocation_test"
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

@@ -5,6 +5,7 @@ buildscript {
         targetSdkVersion = 31
         appCompatVersion = "1.4.2"
         playServicesLocationVersion = "20.0.0"
+        minSdkVersion = 19
     }
     repositories {
         google()
